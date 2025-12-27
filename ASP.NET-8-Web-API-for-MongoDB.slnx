@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/DOCS/">
+    <File Path="DOCS/ASP.NET web API for MongoDB with identity and JWT authentication v1.0 - Technical Document.odt" />
+    <File Path="DOCS/ASP.NET web API for MongoDB with identity and JWT authentication v1.0 - Technical Document.pdf" />
+  </Folder>
+  <Folder Name="/MongoDB-Kubernetes-Deployment/">
+    <File Path="MongoDB-Kubernetes-Deployment/INSTALL.txt" />
+    <File Path="MongoDB-Kubernetes-Deployment/mongo-configmap.yaml" />
+    <File Path="MongoDB-Kubernetes-Deployment/mongo-express.yaml" />
+    <File Path="MongoDB-Kubernetes-Deployment/mongo-secret.yaml" />
+    <File Path="MongoDB-Kubernetes-Deployment/mongodb.yaml" />
+  </Folder>
+  <Folder Name="/NOTES/">
+    <File Path="NOTES/Minikube and Docker Commands.txt" />
+  </Folder>
+  <Folder Name="/POSTMAN/">
+    <File Path="POSTMAN/MongoDB Books WebAPI NET-8.postman_AUTH_collection.json" />
+  </Folder>
+  <Project Path="MongoDB-Books-WebAPI-.NET-8/MongoDB-Books-WebAPI-.NET-8.csproj" />
+</Solution>

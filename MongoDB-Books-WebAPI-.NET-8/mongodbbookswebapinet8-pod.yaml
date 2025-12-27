@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mongodbbookswebapinet8
+spec:
+  containers:
+  - name: mongodbbookswebapinet8
+    image: kraftcoding/mongodbbookswebapinet8:local
+    ports:
+    - containerPort: 8080

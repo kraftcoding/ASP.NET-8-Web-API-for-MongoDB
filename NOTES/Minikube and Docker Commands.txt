@@ -1,0 +1,34 @@
+NOTE: The project must be created with containerization features ot to add Docker support
+
+docker login
+docker build -t kraftcoding/mongodbbookswebapinet8:local .
+docker image
+docker pull kraftcoding/mongodbbookswebapinet8:local
+
+minikube image load kraftcoding/mongodbbookswebapinet8:local
+kubectl apply -f .\mongodbbookswebapinet8-pod.yaml
+kubectl get pods
+kubectl port-forward mongodbbookswebapinet8 8080:8080
+
+(Doesn't work http://localhost:8080/swagger/index.html, test with Postman)
+
+For the docker compose:
+
+docker-compose up --build -d
+docker ps
+
+Other  commands:
+
+kubectl expose deployment mongodbbookswebapinet8 --type=NodePort
+minikube service mongodbbookswebapinet8 --url
+minikube service mongodbbookswebapinet8
+
+kubectl port-forward mongodb-deployment-644cd66579-q4txh 27017:27017
+
+minikube start --driver=docker
+minikube start --driver=VMware (for VMWare virtualization)
+minikube config set driver docker
+minikube delete
+minikube status
+kubectl cluster-info
+minikube dashboard
