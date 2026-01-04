@@ -13,8 +13,5 @@
   <Folder Name="/NOTES/">
     <File Path="NOTES/Minikube and Docker Commands.txt" />
   </Folder>
-  <Folder Name="/POSTMAN/">
-    <File Path="POSTMAN/MongoDB Books WebAPI NET-8.postman_AUTH_collection.json" />
-  </Folder>
   <Project Path="MongoDB-Books-WebAPI-.NET-8/MongoDB-Books-WebAPI-.NET-8.csproj" />
 </Solution>
